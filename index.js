@@ -50,3 +50,9 @@ var questionsArr = [
     ]
   }
 ];
+
+var quizQuestion = document.getElementById('quiz');
+var timerCountdown = 30;
+var timerCountdownId = null;
+var quizCurrentQuestion = 0;
+var quizScoreCount = 0;
