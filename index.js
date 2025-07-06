@@ -68,6 +68,7 @@ function showStartScreen() {
     quizQuestion.appendChild(scoreEl);
   }
   }
+
   var startQuizBtn = document.createElement('button');
   startQuizBtn.textContent = 'Start Quiz!';
   startQuizBtn.id = 'start-quiz';
@@ -149,4 +150,5 @@ function endQuiz() {
   restartQuizBtn.addEventListener('click', startQuiz);
   quizQuestion.appendChild(restartQuizBtn);
 }
+
 showStartScreen();
