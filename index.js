@@ -86,6 +86,7 @@ function showQuestion() {
   clearInterval(quizTimer);
   quizQuestion.textContent = '';
   timerCountdownSeconds = 30;
+  
   var questionObj = questionsArr[quizCurrentQuestion];
   var questionEl = document.createElement('p');
   questionEl.textContent = questionObj.question;
